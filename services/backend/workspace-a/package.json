@@ -1,0 +1,10 @@
+{
+  "name": "@project/workspace-a",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "bin": "src/init.js",
+  "dependencies": {
+    "@project/workspace-b": "workspace:*"
+  }
+}
